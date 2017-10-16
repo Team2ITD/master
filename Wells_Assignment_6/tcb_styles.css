@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+/* Styles for the Page Body */
+
+body {
+background: #031f66;
+width: 100%;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    background-image: url('./full_band.jpg');
+    background-size: cover;
+}
+
+header nav li{
+    display: inline-block;
+}
+
+header nav li a{
+    background-color: gray;
+    color: white;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+header nav li a:hover{
+    background-color: orange;
+    color: black;
+}
+h1{
+	font-family: 'Ostrich Sans';
+    font-weight: 700;
+    font-size: 30px;
+	font:bold;
+    color:black;
+    line-height: 45px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#band-name{
+    font-family: 'Ostrich Sans';
+    font-weight: 700;
+    font-size: 50px;
+    color:yellow;
+    line-height: 45px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#band-name:hover{
+    color: white;
+    text-decoration:none;
+}
+
+#band-name #name{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+#horn{
+  float: left;  
+} 
+
+.page-content{
+    background-color: white;
+}
+
+#hornplayer {
+    display:inline-block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer{
+    background:black;
+    color:yellow;
+    background-size: cover;
+}
