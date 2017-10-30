@@ -1,11 +1,10 @@
-header {
-	background-image:url("band.jpg");
-	background-repeat:no-repeat;
-	background-position:center;
-	text-align:center;
+#container { width: 100%; 
 }
-
-
-p {
-	text-align:center;
+#header { width: 100%; 
+}
+#menubar { width: 100%; 
+}
+#content { width: 700px; 
+}
+#sidebar { width: 200px; 
 }
